@@ -1,14 +1,5 @@
 ## 🌑 ShadowRecon
 
-
-███████╗██╗  ██╗ █████╗ ██████╗  ██████╗ ██╗    ██╗██████╗ ███████╗ ██████╗ ██████╗ ███╗   ██╗
-██╔════╝██║  ██║██╔══██╗██╔══██╗██╔═══██╗██║    ██║██╔══██╗██╔════╝██╔════╝██╔═══██╗████╗  ██║
-███████╗███████║███████║██║  ██║██║   ██║██║ █╗ ██║██████╔╝█████╗  ██║     ██║   ██║██╔██╗ ██║
-╚════██║██╔══██║██╔══██║██║  ██║██║   ██║██║███╗██║██╔══██╗██╔══╝  ██║     ██║   ██║██║╚██╗██║
-███████║██║  ██║██║  ██║██████╔╝╚██████╔╝╚███╔███╔╝██║  ██║███████╗╚██████╗╚██████╔╝██║ ╚████║
-╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝  ╚═════╝  ╚══╝╚══╝ ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝
-
-
 ### ⚡ Description
 
 *ShadowRecon* is a modular, open-source bug bounty reconnaissance and scanning toolkit designed to automate and accelerate the process of discovering security issues in web applications. Starting with subdomain enumeration, it aims to grow into a full-spectrum scanning framework with vulnerability discovery, reporting, and automation for unique attack surfaces.
@@ -29,6 +20,14 @@ This project is not a one-time release — it's a long-term learning initiative 
   - Screenshots & fuzzing
   - Unique exploit automations
   - Reporting & alerting
+ 
+### 🎯 Vision and Future Plans
+
+ShadowRecon is more than just a subdomain enumeration tool — it’s the foundation of something much bigger. This project will not stop here. I’m continuously learning and evolving it into a complete reconnaissance and vulnerability scanning toolkit.
+
+I plan to incorporate modules for automated vulnerability discovery, including components that helped me personally identify high-impact, paid vulnerabilities. My goal is to provide value not only for individual bug bounty hunters but also for security teams and developers who want to secure their applications proactively.
+
+ShadowRecon will support OWASP Top 10 vulnerability testing and other impactful security checks, making it a valuable resource for anyone serious about web application security. Stay tuned — this is just the beginning.
 
 ---
 
@@ -37,8 +36,8 @@ This project is not a one-time release — it's a long-term learning initiative 
 Clone the repository and run the installer script:
 
 bash
-git clone https://github.com/yourusername/ShadowRecon.git
-cd ShadowRecon
+git clone https://github.com/Divergent94/shadowrecon.git
+cd shadowrecon
 chmod +x install.sh
 ./install.sh
 
